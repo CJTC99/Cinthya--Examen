@@ -1,0 +1,925 @@
+
+/*Color de fondo del sitio web*/
+/*body{
+
+    background-color: yellow;
+}*/
+
+/* Prpopiedades para el div en donde se encuentran los elementos principales*/
+*{
+    margin:0;
+    padding:0;
+}
+
+/*Propiedades para el div en donde se cuentra mi cabecera */
+.menu{
+
+    width: 100%;
+    background-color: #2C3E50;
+
+
+}
+
+.menu img{ 
+
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    border: 3px solid red;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    left: 35px;
+    background-color: white;
+
+}
+
+.info a{
+
+    text-decoration: none;
+    width: 50%;
+    display: inline-block;
+    color: #16A085;
+    padding: 11px 12px;
+    font-size: 24px;
+    position: relative;
+    left: 55px;
+    top: -2px;
+
+}
+
+.links{
+
+    display: inline-block;
+    text-align: right;
+    width: 99%;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links ul{
+
+    list-style: none;
+    width: 100%;
+    position: relative;
+    top: -45px;
+}
+
+.links li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.link a:hover {
+    color: #16A085;
+
+}
+.link a{
+    color: white;
+}
+.diferente a{
+    color: red;
+
+}
+
+/* Separación de las etiquetas con una linea preciosa :3*/
+
+.sep{
+
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #293949;
+}
+
+
+
+
+.principal{
+
+    width: 100%;
+    max-width: 150%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    width: 100%;
+    float: left;
+    background-color: #2C3E50;
+
+}
+
+/* Propiedades para el div en donde se encuentra la imagen*/
+.imagen_principal{
+   
+    margin: 4%;
+    padding: 2px;
+    width: 50%;
+    height: 70%;
+    position: relative;
+    left: 250px;
+
+}
+
+ /* Propiedades de la imagen de anime uwu */
+.imagen_principal img {
+
+    width: 300px;
+    height: 300px;
+    position: relative; 
+    left: 220px;
+    border-radius: 50%;
+    border:10px solid #fff;
+    display: block;
+
+}
+
+/*Propiedades para el estilo del p*/
+.imagen_principal p{
+
+    position: relative;
+    left: 20px;
+    top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family:  Courier, "Lucida Console", monospace;
+    font-weight: 40px;
+    color: white;
+    font-weight: 80px;
+}
+
+/*Propiedades para los iconos de redes sociales */
+.imagen_principal input{
+    position: relative;
+    left: 20px;
+}
+
+/*Propiedades para cada uno de los enlaces */
+.botones_principales{
+
+    position: relative;
+    top: 20px;
+    left: 230px;
+    display: block;
+
+}
+
+.botones_principales a{
+
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-width: 3px;
+    color: white;
+    
+
+}
+
+/*Efectos para cada uno de ellos */
+.song:hover {
+    color: #16A085;
+    border-color: #16A085;
+}
+
+.game:hover {
+    color: #C8341D;
+    border-color: #C8341D;
+   
+}
+
+
+/* Div a cerca de mi */
+.parte2{
+
+    width: 100%;
+    background-color:#34495e;
+    display: block;
+}
+
+.informacion1 img{
+
+    width: 110px;
+    height: 110px;
+    position: relative; 
+    top: 8px;
+    left: 90px;
+    border-radius: 50%;
+    border:3px solid #fff;
+
+}
+
+
+.informacion2 h2{
+
+    display: inline;
+    margin-left: 100px;
+    color: white;
+    border-bottom: 3px solid white;
+
+
+}
+
+.informacion2 p{
+
+    background-color: #34495e;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+}
+
+
+/*Div para las referencias */
+.referencias{
+
+    width: 100%;
+    background-color: #1abc9c;
+
+}
+
+.encabezado{
+    color: white;
+    text-align: center;
+}
+.encabezado h2{
+
+    margin-top: 0px;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.encabezado p{
+
+    font-size: 20px;
+
+}
+/*Div para las referencias */
+
+/* NOTA: Poner efecto de parrafos deslizandose un poco */
+.imgYp{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.g1{
+    display: inline-block;
+    width: 250px;
+    color: white;
+}
+.g1{
+    padding: 40px;
+}
+
+.g1 img{
+
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 300px;
+}
+
+.g1 p{
+
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.g1 h2:hover{
+    color: #2C3E50;
+
+}
+
+/* Div para las cantidades */
+.cantidades{
+
+    width: 100%;
+    height: 100px;
+    background-color: #34495e;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.cantidades img{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+
+.notificacion{
+
+    width: 200px;
+    padding: 20px;
+    display: block;
+}
+
+.notificacion p {
+
+    color: white;
+    text-align: center;
+}
+
+.notificacion span{
+
+    color: white;
+    border-bottom: 3px solid rgb(255, 84, 84);
+}
+
+
+/*Propiedades para la etiqueta div de trabajos*/
+.trabajos{
+
+    width: 100%;
+    background-color: #1abc9c;
+    display: block;
+
+}
+
+/*Segunda separación*/
+.sep2{
+
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(23, 169, 140);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10px;
+}
+/*Encabezado de Some games*/
+.works h2{
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.works p{
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Titulos y texto*/
+.ordenado{ 
+
+    width: 50%;
+    padding-top: 50px;
+    display: inline-block;
+
+}
+
+.listas ul{
+
+    list-style: none;
+    color: white;
+}
+
+.listas li{
+
+    padding-left: 200px;
+}
+
+.listas ul{
+
+    list-style: none;
+    color: white;
+
+}
+
+.seemore{
+
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 84, 84);
+    background-color: rgb(255, 84, 84);
+    margin-left: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.seemore a{
+    text-decoration: none;
+}
+.seemore p{
+
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.seemore p:hover{
+
+    
+    border-radius: 10px;
+    background-color: #AB200A;
+
+    
+}
+
+.pokemon{
+
+    width: 95%;
+    float: right;
+    display: block;
+    position: relative;
+    left: 550px;
+    top: -400px;
+}
+
+.pokemon img{
+
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/*Propiedades para la etiqueta con la frase*/
+.campo{
+
+    width: 100%;
+    display: block;
+    background-color: #34495e;
+}
+
+.sep3{
+
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: #2C3E50;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10px;
+}
+
+.campo blockquote{
+
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    border-right: 5px solid #2b333b;
+    margin-top: 80px;
+    margin-left: 60%;
+    margin-bottom: 80px;
+
+}
+.campo blockquote span{
+
+    color: #16A085;
+    font-size: 20px;
+}
+
+/* Propiedades para la etiqueta de mis main uwu */
+.lol{
+    width: 100%;
+    background-color: #1abc9c;
+}
+
+.sep4{
+
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(23, 169, 140);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10px;
+}
+
+.lol p{
+
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.lol span{
+
+    color: white;
+    font-size: 20px;
+}
+
+.conte{
+
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.refe-img{
+
+    width: 300px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#img{
+    width: 100%;
+}
+
+.refe-img img{
+
+    width: 200px;
+    height: 300px;
+}
+
+/*Propiedades para el div posts */
+.posts{
+
+    display: block;
+    width: 100%;
+    background-color: #34495e;
+}
+
+.posts p{
+
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.posts span{
+
+    color: white;
+    font-size: 30px;
+}
+
+.cuadro{
+
+    display: inline-block;
+    background: #2C3E50;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.cuadro h3{
+
+    color: white;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.cuadro p{
+
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.cuadro a{
+
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 84, 84);
+    background-color: rgb(255, 84, 84);
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 65%;
+    position: relative;
+    top: -20px;
+
+}
+
+.cuadro a:hover{
+
+
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 65%;
+    background-color: #AB200A;
+
+}
+
+/* Propiedades del  div pricing*/
+.letrasPri{
+
+    display: block;
+    width: 100%;
+    background-color: #1abc9c;
+}
+
+.letrasPri p{
+
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.letrasPri span{
+
+    color: white;
+    font-size: 30px;
+}
+
+/*Tablitas*/
+.priciTabla {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #1abc9c;
+    padding-bottom: 25px;
+
+}
+
+.priciUnion {
+
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.renglon1{
+
+    background: #2C3E50;
+}
+
+.priciUnion p {
+
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#price {
+
+    color: #2C3E50;
+    background: white;
+}
+
+.renglon2{
+    background: rgb(239, 240, 240);
+
+}
+
+.renglon2 p{
+
+    color: #2C3E50;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.renglon3{
+
+    background: rgb(233, 224, 244);
+    padding-top: 30px;
+
+}
+
+.renglon3 a{
+
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 84, 84);
+    background-color: rgb(255, 84, 84);
+    margin-left: 45%;
+    padding: 5px;
+    position: relative;
+    top: -15px;
+
+}
+
+/* Propiedades del div */
+.testi{
+
+    display: block;
+    width: 100%;
+    background-color: rgb(22, 160, 133);
+}
+
+.textTesti p{
+
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.textTesti span{
+    color: white;
+    font-size: 30px;
+}
+
+.infoTesti{
+
+    display: block;
+    width: 100%;
+    background-color: rgb(22, 160, 133);
+}
+
+.personas{
+
+    display: inline-block;
+    padding: 50px;
+}
+
+.imgTesti img{
+
+    float: left;
+    width: 150px; 
+    height: 150px;
+    border-radius: 70px;
+
+}
+
+.testiInfo{
+
+    position: relative;
+    top: -100px;
+    left: 170px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid rgb(20, 144, 119);
+    background-color: rgb(20, 144, 119);
+}
+
+.testiInfo h2{
+
+    color: white;
+}
+
+.testiInfo p{
+
+    color: white;
+    line-height: 25px;
+
+}
+
+/*Propiedades para el div de contactos */
+.Cmain {
+
+    display: block;
+    width: 100%;
+    background-color: #34495e;
+    position: relative;
+
+}
+
+.tituloC {
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.imagenC{
+
+    width: 100%;
+    position: relative;
+
+}
+
+.datos{
+
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 20%;
+    margin-right: 20px;
+
+}
+
+.datos input{
+
+    height: 30px;
+    width: 400px;
+
+}
+
+.datos textarea{
+
+    width: 400px;
+}
+
+.datos .botton {
+
+    width: 130px;
+    margin-left: 270px;
+    color: white;
+    background: rgb(255, 84, 84);
+    border-radius: 40px;
+}
+
+/*Propiedades para la etiqueta de contacto*/
+.imgCon{
+
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: -130px;
+
+}
+
+.imgCon img{
+
+    max-width: 100px;
+    margin-bottom: 25px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border:3px solid #fff;
+
+}
+
+.Myinfo{
+
+    background: rgb(27, 188, 156);
+    border-radius: 10px;
+    border: 1px solid rgb(27, 188, 156);
+}
+
+.Myinfo .uno{
+    margin-bottom: 20px;
+    border-bottom: rgb(21, 116, 97) 2px dashed;
+}
+
+.Myinfo p{
+
+    color: white;
+    font-size: 18px;
+}
+
+/*Propiedad para el dvi de pie de página*/
+.final{
+
+    width: 100%;
+    text-align: center;
+    background-color: #34495e;
+}
+
+.sep5{
+
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: #2C3E50;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10px;
+}
+.final ul{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    color: rgb(27, 188, 156);
+}
+
+.final li{
+
+    display: inline-block;
+    padding: 30px;
+    border-radius: 80px;
+    margin-left: 50px;
+}
+
+.final img{
+
+    width: 50px;
+    height: 50px;
+
+}
+.final li:hover{
+
+    background-color:rgb(27, 188, 156);
+
+}
+
+.final p{
+
+    color: white;
+}
+
